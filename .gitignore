@@ -1,29 +1,68 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
 
-# Precompiled Headers
-*.gch
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
 *.pch
-
-# Libraries
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
 *.lib
-*.a
-*.la
-*.lo
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+#MonoDevelop
+*.pidb
+*.userprefs
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+*.sass-cache
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+# vim Temp Files
+*~
+
+#NuGet
+packages/
+*.nupkg
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+# visual studio database projects
+*.dbmdl
+
+#Test files
+*.testsettings
